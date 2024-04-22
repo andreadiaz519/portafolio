@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-principal {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.contenedor-box-encabezado {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 50px;
+    width: 100%;
+    height: 100px;
+    background-color: hotpink;
+    font-size: 20px;  
+}
+
+.contenedor-box-saludo {
+    display: flex;
+    padding: 90px;
+    margin: 60px;
+    justify-content: lef;
+}
+
+.contenedor-saludo {
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.box-saludo {
+    text-align: center;
+
+}
+
+.titulo-saludo {
+    color: black;
+    font-size: 40px;
+
+}
+
+.titulo-nombre {
+    color: hotpink;
+    font-size: 70px;
+
+}
+
+.descripcion-saludo {
+    padding: 10px;
+    color: rgb(26, 26, 26);
+    font-size: 20px;
+
+}
+
+.boton {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgb(235, 219, 227);
+    text-align: center;
+    
+    
+
+}
+
+.box-img {
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    margin-left: 200px;
+    
+    
+    
+}

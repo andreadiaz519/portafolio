@@ -8,44 +8,77 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="contenedor-principal">
-        <div class="contenedor-box-encabezado">
-            <div><a href="">Hola</a></div>
-            <div><a href="">Conocimientos</a></div>
-            <div><a href="">Proyecto</a></div>
-            <div><a href="">Contacto</a></div>
+    <header>
+        <!--Menu-navegacion-->
+        <div class="contenedor-menu">
+            <nav class="contenedor-menu-1">
+            <ul class="menu-navegacion">
+                <li class="item"> <a href="">HOLA</a></li>
+                <li class="item"> <a href="">CONOCIMIENTOS</a></li>
+                <li class="item"> <a href="">PROYECTOS</a></li>
+                <li class="item"> <a href="">CONTACTO</a></li>
+            </ul>
+        </nav>   
+        <button type="button" class="abrir-boton">
+        </button>
         </div>
     </header>
-
-    <main class="contenedor-box-saludo">
-        <section class="contenedor-saludo">
-            <div class="box-saludo">
+    <!--seccion-sobre-mi-->
+    <section class="contenedor-saludo">
+        <div class="contenido-saludo>">
+            <div class="informacion-acerca-de-mi">
                 <h1 class="titulo-saludo">¡Hola! Soy <span class="titulo-nombre"><br> Andrea Díaz</span></h1>
-                <p class="descripcion-saludo">Desarrolladora y Psicóloga</p>
-                <button class="boton"> <a href="">LO QUE HAGO</a></button>
-</div>
-    <figure class="box-img">
-        <img src="https://img.pikbest.com/origin/09/20/30/90EpIkbEsTQ8a.png!sw800" alt="imagen-programadora">
-</figure>
+                <p class="descripcion-saludo">Desarrolladora, Psicóloga y fan de la naturaleza</p>
+                <button class="boton" class="texto-boton"><a href="">LO QUE HAGO</a></button>
+            </div>   
+            <img class="imagen-programadora"  src="https://frontend-proyecto-portfolio.adaitw.org/images/software-engineer.svg" alt class="imagen">
+        </div>
     </section>
-
-<section>
-    <div>
-        <h1 class="Titulo-mis-conocimientos" >Mis Conocimientos</h1>
-        <p class="parrafo">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis delectus recusandae saepe modi similique perspiciatis laborum obcaecati, totam vitae nisi odit sit quis provident eligendi voluptatum ipsum, ad fugiat voluptates.</p>
-    <div class="contenedores">
-
-    </div>
-    </div>
-
-
-
-
-
-
-
-
-</section>
+    <!--Seccion-conocimientos-->
+    <section class="seccion-mis-conocimientos">
+        <div class="contenedor-mis-conocimientos">
+            <h2 class="titulo">Mis conocimientos</h2>
+            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> repellat corporis eius exercitationem a corrupti id <br> quas aperiam harum possimus.</p>
+            <div class="contenedor-habilidades">
+    <!--Seccion-habilidades-->
+                <div class="item-habilidad">
+                    <img class="icono-html" src="https://cdn-icons-png.flaticon.com/256/174/174854.png"></img>
+                    <p class="titulo-habilidad">HTML 5</p>  
+                </div>
+                <div class="item-habilidad">
+                    <img class="icono-css" src="https://blog.desafiolatam.com/wp-content/uploads/2023/10/68747470733a2f2f776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667.svg" alt="CSS">
+                    <p class="titulo-habilidad">CSS 3</p>
+                </div>
+                <div class="item-habilidad">
+                    <img class="icono-sass" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png"></img>
+                    <p class="titulo-habilidad">Sass</p>
+                </div>
+                <div class="item-habilidad">
+                    <img class="icono-javascript" src="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png"></img>
+                    <p class="titulo-habilidad">JavaScript</p>
+                </div>
+                <div class="item-habilidad">
+                    <img class="icono-react" src="https://d2gbo5uoddvg5.cloudfront.net/images/modules/react.gif"></img>
+                        <p class="titulo-habilidad">React</p>
+                    </div>
+                        <div class="item-habilidad">
+                            <img class="icono-git" src="https://victorroblesweb.es/wp-content/uploads/2018/04/git.png"></img>
+                            <p class="titulo-habilidad">GIT</p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+    <!--Seccion de Cita-->
+    <section class="contenedor-cita">
+        <div class="contenido-cita">
+            <img class="icono-comillas" src="imagenes/cotizacion.png"></img>
+            <blockquote>
+                <p class="texto">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eveniet omnis,<br> officiis quis perspiciatis aspernatur! Dolore quae rerum repellat voluptate fugit <br> aliquid dolorem sunt numquam praesentium atque perferendis, nisi facilis"
+                </p>
+            </blockquote>
+            <h2 class="autor">Someone</h2>
+        </div>
+    </section>
 </main> 
 </body>
 </html>

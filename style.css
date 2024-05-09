@@ -3,40 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container-principal {
-    display: flex;
-    flex-direction: row;
-    
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.contenedor-box-encabezado {
+.contenedor-menu {
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+        
+}
+
+.contenedor-menu-1 {
+    display: flex;
+    justify-content: flex-end;
     padding: 50px;
     width: 100%;
     height: 100px;
     background-color: hotpink;
-    font-size: 20px;  
+    font-size: 20px;      
 }
 
-.contenedor-box-saludo {
+
+.menu-navegacion {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.item {
+    color: white;
+}
+
+.abrir-boton {
+    display: none;
+    font-size: 16px;
+    margin: 0 15px;
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2e2e31;
+}
+
+
+.contenedor-saludo {
     display: flex;
     padding: 90px;
     margin: 60px;
-    justify-content: lef;
+    justify-content: left;
 }
 
-.contenedor-saludo {
+.contenido-saludo {
     font-size: 30px;
-    color: blueviolet;
+    color: white;
 }
 
-.box-saludo {
-    text-align: center;
 
-}
 
 .titulo-saludo {
     color: black;
@@ -60,20 +85,142 @@
 .boton {
     margin: 20px;
     padding: 20px;
-    border-radius: 30px;
-    background-color: rgb(235, 219, 227);
+    border-radius: 50px;
+    background-color:hotpink;
     text-align: center;
-    
-    
-
+    text-decoration-line: none;
 }
 
-.box-img {
+
+
+
+.imagen-programadora {
     display: flex;
-    justify-content: first baseline;
+    justify-content: flex-end;
+}
+
+.seccion-mis-conocimientos {
+    background-color: #f6f7fb;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedor-mis-conocimientos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-left: 200px;
-    
-    
+}
+
+.titulo {
+    padding: 50px;
+    display: block;
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: 0.375em;
+    line-height: 1.2;
+}
+
+.descripcion {
+    color: rgb(50, 50, 50);
+    padding: 0;
+    font-size: 20px;
+}
+
+.contenedor-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    padding:110px 40px 130px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.item-habilidad {
+    width: 280px;
+    height: 280px;
+    padding: 10px;
+    margin: 5px;
+    color: #2e2e31;
+    background-color: #fff;
+    border: 1px solid #dddfe5;
+    border-radius: 8px;
+}
+
+.titulo-habilidad {
     
 }
+
+.contenedor-cita {
+    padding: 80px 20px;
+    background-color:hotpink;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contenido-cita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto {
+    line-height: 1.4;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 20px;
+}
+
+.icono-html {
+    width: 150px;
+    height: 150px;
+}
+
+.icono-css {
+    width: 150px;
+    width: 150px;
+
+}
+
+.icono-sass {
+    width: 150px;
+    height: 150px;
+}
+
+.icono-javascript {
+    width: 150px;
+    height: 150px;
+}
+
+.icono-react {
+    width: 150px;
+    height: 150px;
+}
+
+.icono-git {
+    width: 150px;
+    height: 150px;
+}
+
+.icono-comillas {
+    background-color:hotpink;
+    color: brown;
+    height: 100px;
+    width: 100px;
+}
+
+
+

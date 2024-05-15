@@ -1,8 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poetsen One", sans-serif;;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,7 +24,6 @@ body {
     font-size: 20px;      
 }
 
-
 .menu-navegacion {
     display: flex;
     justify-content: space-around;
@@ -35,19 +36,27 @@ body {
 
 .item {
     color: white;
+    margin: 0 10px;
+
 }
 
-.abrir-boton {
-    display: none;
-    font-size: 16px;
-    margin: 0 15px;
-    cursor: pointer;
-    border: 0;
-    background-color: transparent;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #2e2e31;
+.link-nav {
+    line-height: 2.5;
+    padding: 0 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
 }
 
+.link-nav-select {
+    padding: 0 10px;
+    transition: 0.2s;
+    background-color: white;
+    color: #ff76ce;
+    text-decoration: none;
+    border-radius: 200px;
+    line-height: 2.5;
+}
 
 .contenedor-saludo {
     display: flex;
@@ -62,7 +71,6 @@ body {
 }
 
 
-
 .titulo-saludo {
     color: black;
     font-size: 40px;
@@ -70,6 +78,7 @@ body {
 }
 
 .titulo-nombre {
+    margin: 30px;
     color: hotpink;
     font-size: 70px;
 
@@ -77,22 +86,24 @@ body {
 
 .descripcion-saludo {
     padding: 10px;
+    margin: 30px;
     color: rgb(26, 26, 26);
     font-size: 20px;
 
 }
 
 .boton {
-    margin: 20px;
-    padding: 20px;
-    border-radius: 50px;
-    background-color:hotpink;
-    text-align: center;
-    text-decoration-line: none;
+    background-color: #ff76ce;
+    margin: 40px;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
-
-
-
 
 .imagen-programadora {
     width: 350px;
@@ -103,7 +114,7 @@ body {
 }
 
 .seccion-mis-conocimientos {
-    background-color: #fff9d0;
+    background-color: #fdfbe7;
     padding: 80px 20px;
     display: flex;
     justify-content: center;
@@ -236,7 +247,7 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border: ;
+    border:;
     justify-content: center;
     align-items: center;
     border: 1px solid #dddfe5;
@@ -254,10 +265,6 @@ body {
     margin-bottom: 0.375em;
 }
 
-.parrafo-mis-proyectos {
-
-}
-
 .parrilla-proyectos {
     display: flex;
     flex-wrap: wrap;
@@ -268,20 +275,18 @@ body {
 
 .Titulo-proyectos {
     display: block;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 100;
     margin-top: 20px;
     line-height: 1.4;
     color: black;
-    text-decoration: none;
-    text-transform: none;
+    
 }
 
 .imagen-proyecto {
     display: block;
     height: 300px;
     width: 300px;
-
-
 }
 
 .project {

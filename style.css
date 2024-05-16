@@ -72,23 +72,29 @@ body {
 
 
 .titulo-saludo {
-    color: black;
-    font-size: 40px;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 800;
 
 }
 
 .titulo-nombre {
-    margin: 30px;
-    color: hotpink;
-    font-size: 70px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #ff76ce;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.2;
 
 }
 
 .descripcion-saludo {
-    padding: 10px;
-    margin: 30px;
-    color: rgb(26, 26, 26);
-    font-size: 20px;
+    display: block;
+    line-height: 1.;
+    margin-bottom: 40px;
+    color: #616161;
+    font-size: 16px;
 
 }
 
@@ -96,7 +102,7 @@ body {
     background-color: #ff76ce;
     margin: 40px;
     color: white;
-    padding: 20px 50px;
+    padding: 10px 20px;
     border-radius: 100px;
     font-weight: 500;
     display: flex;
@@ -106,11 +112,11 @@ body {
 }
 
 .imagen-programadora {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     display: flex;
+    justify-content: flex-end;
     flex-direction: row;
-    align-content: flex-end;
 }
 
 .seccion-mis-conocimientos {
@@ -172,7 +178,7 @@ body {
 
 .contenedor-cita {
     padding: 80px 20px;
-    background-color:#ff76ce;
+    background-color:#fb94d7;
     color: white;
     display: flex;
     justify-content: center;
@@ -198,39 +204,13 @@ body {
     font-size: 20px;
 }
 
-.icono-html {
-    width: 150px;
-    height: 150px;
-}
-
-.icono-css {
-    width: 150px;
-    width: 150px;
-
-}
-
-.icono-sass {
-    width: 150px;
-    height: 150px;
-}
-
-.icono-javascript {
-    width: 150px;
-    height: 150px;
-}
-
-.icono-react {
-    width: 150px;
-    height: 150px;
-}
-
-.icono-git {
+.icono {
     width: 150px;
     height: 150px;
 }
 
 .icono-comillas {
-    background-color:hotpink;
+    background-color:rgb(254, 127, 191);
     color: brown;
     height: 100px;
     width: 100px;
@@ -252,6 +232,7 @@ body {
     align-items: center;
     border: 1px solid #dddfe5;
     border-radius: 8px;
+    background-color: #fdfbe7;
 
 }
 

@@ -3,20 +3,13 @@
     padding: 0;
     font-family: "Poetsen One", sans-serif;;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.contenedor-menu {
-    display: flex;
-        
+    text-decoration: none;
 }
 
 .contenedor-menu-1 {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 50px;
     width: 100%;
     height: 100px;
@@ -34,28 +27,22 @@ body {
     color: white;
 }
 
-.item {
-    color: white;
-    margin: 0 10px;
-
-}
-
 .link-nav {
+    display: block;
     line-height: 2.5;
     padding: 0 10px;
     text-decoration: none;
     color: white;
-    display: block;
 }
 
 .link-nav-select {
-    padding: 0 10px;
     transition: 0.2s;
     background-color: white;
     color: #ff76ce;
     text-decoration: none;
-    border-radius: 200px;
+    border-radius: 100px;
     line-height: 2.5;
+    padding: 5px 20px;
 }
 
 .contenedor-saludo {
@@ -68,6 +55,7 @@ body {
 .contenido-saludo {
     font-size: 30px;
     color: #fdffc2;
+    background-color: #fdffc2;
 }
 
 
@@ -109,9 +97,11 @@ body {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    width: 150px;
 }
 
 .imagen-programadora {
+    margin-top: 30px;
     width: 400px;
     height: 400px;
     display: flex;
@@ -120,7 +110,7 @@ body {
 }
 
 .seccion-mis-conocimientos {
-    background-color: #fdfbe7;
+    background-color: #fabee8;
     padding: 80px 20px;
     display: flex;
     justify-content: center;
@@ -140,13 +130,13 @@ body {
     display: block;
     font-size: 60px;
     font-weight: 900;
-    color: black;
+    color: rgb(112, 112, 112);
     margin-bottom: 0.375em;
     line-height: 1.2;
 }
 
 .descripcion {
-    color: rgb(50, 50, 50);
+    color: rgb(112, 112, 112);
     padding: 0;
     font-size: 20px;
 }
@@ -166,19 +156,23 @@ body {
     height: 280px;
     padding: 10px;
     margin: 5px;
-    color: #2e2e31;
-    background-color: #fff;
+    color: rgb(112, 112, 112);;
+    background-color: #f0eeee;
     border: 1px solid #dddfe5;
     border-radius: 8px;
 }
 
 .titulo-habilidad {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.4;
+
     
 }
 
 .contenedor-cita {
     padding: 80px 20px;
-    background-color:#fb94d7;
+    background-color: #FF76CE;
     color: white;
     display: flex;
     justify-content: center;
@@ -191,7 +185,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .texto {
@@ -202,6 +195,7 @@ body {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 20px;
+    color: white;
 }
 
 .icono {
@@ -227,12 +221,10 @@ body {
     width: 100%;
     display: flex;
     flex-direction: column;
-    border:;
     justify-content: center;
     align-items: center;
-    border: 1px solid #dddfe5;
-    border-radius: 8px;
-    background-color: #fdfbe7;
+    background-color: #fce1f4;
+
 
 }
 
@@ -241,9 +233,13 @@ body {
     display: block;
     font-size: 60px;
     font-weight: 900;
-    color: black;
+    color: rgb(112, 112, 112);
     line-height: 1.4;
     margin-bottom: 0.375em;
+}
+
+.parrafo-mis-proyectos {
+    color: rgb(112, 112, 112);;
 }
 
 .parrilla-proyectos {
@@ -260,7 +256,7 @@ body {
     font-weight: 100;
     margin-top: 20px;
     line-height: 1.4;
-    color: black;
+    color: rgb(112, 112, 112);;
     
 }
 
@@ -279,4 +275,58 @@ body {
     padding: 20px;
     overflow: hidden;
     margin: 0.75em;
+}
+
+.seccion-contacto {
+    display: flex;
+    flex-direction: column;
+    background-color: #fabee8;
+
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #dad9d9;
+    border-radius: 10px;
+    height: 700px;
+    background-color: #fce1f4;
+    
+}
+
+.contenedor.titulo-parrafo {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 30px;
+}
+
+.titulo-contactame {
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+    color: rgb(112, 112, 112);
+}
+
+
+.iconos {
+    display: flex;
+    flex-direction: column;
+    width: 20px;
+    height: 20px;
+}
+
+.parrafo-descripcion {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    text-align: left;
+    color: rgb(112, 112, 112);
+    
 }

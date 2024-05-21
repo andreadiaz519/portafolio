@@ -65,7 +65,6 @@
     margin-bottom: 5px;
     font-weight: 800;
     color: rgb(112, 112, 112);
-
 }
 
 .titulo-nombre {
@@ -75,7 +74,6 @@
     font-size: 60px;
     font-weight: 900;
     line-height: 1.2;
-
 }
 
 .descripcion-saludo {
@@ -84,7 +82,6 @@
     margin-bottom: 40px;
     color: #616161;
     font-size: 16px;
-
 }
 
 .boton {
@@ -107,7 +104,8 @@
     height: 400px;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
+    padding-left: ;
+
 }
 
 .seccion-mis-conocimientos {
@@ -168,17 +166,13 @@
     padding-top: 50px;
     width: 150px;
     height: 150px;
-
 }
-
 
 .titulo-habilidad {
     margin-top: 40px;
     font-size: 20px;
     font-weight: 700;
-    line-height: 1.4;
-
-    
+    line-height: 1.4;    
 }
 
 .contenedor-cita {
@@ -188,7 +182,6 @@
     display: flex;
     justify-content: center;
     text-align: center;
-
 }
 
 .contenido-cita {
@@ -208,8 +201,6 @@
     font-size: 20px;
     color: white;
 }
-
-
 
 .icono-comillas {
     background-color:rgb(254, 127, 191);
@@ -263,8 +254,7 @@
     font-weight: 100;
     margin-top: 20px;
     line-height: 1.4;
-    color: rgb(112, 112, 112);;
-    
+    color: rgb(112, 112, 112);    
 }
 
 .imagen-proyecto {
@@ -284,65 +274,232 @@
     border-radius: 8px;
     padding: 20px;
     margin: 0.75em;
+}
+
+.columna-contacto {
+    background-color: #f9aae1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    unicode-bidi: isolate;
+    padding: 0;
 
 }
 
-.seccion-contacto {
+.contenedor-cont-form {
     display: flex;
-    flex-direction: column;
-    background-color: #fabee8;
-
-}
-
-.contenedor {
-    display: flex;
-    flex-direction: column;
-    padding: 150px;
-    
+    text-align: center;
+    justify-content: center;
+    unicode-bidi: isolate;
+    max-width: 100%;
+    padding-bottom: 120px;
+    padding-top: 150px;
 }
 
 .contacto {
+    background-color: #fce0f2;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px ;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    border: 3px solid #dad9d9;
-    border-radius: 10px;
-    height: 700px;
-    background-color: #fce1f4;
-    
+    text-align: left;
+    border-radius: 15px;
+    height: 800px;
+    width: 900px;
+    box-shadow: 2px 2px 2px #f9aae1;
+    unicode-bidi: isolate;
     
 }
 
-.contenedor.titulo-parrafo {
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
-    padding: 30px;
+.contacto-columna {
+    width: 300px;
+    margin-bottom: 40px;
+    display: block;
+    text-align: left;
+    padding-right: 20px;
+    text-align: left;
+    unicode-bidi: isolate;
 }
 
 .titulo-contactame {
-    font-size: 40px;
-    text-align: left;
-    padding: 30px;
-    color: rgb(112, 112, 112);
     margin-bottom: 30px;
-    margin-top: 30px;
-    
-
-}
-
-
-.iconos {
-    display: flex;
-    flex-direction: column;
-    width: 20px;
-    height: 20px;
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    margin-bottom: 30px;
+    text-align: left;
+    unicode-bidi: isolate;
+    color: rgb(112, 112, 112);
 }
 
 .parrafo-descripcion {
-    display: flex;
-    flex-direction: column;
+    max-width: 400px;
     line-height: 1.4;
+    display: block;
+    unicode-bidi: isolate;
     text-align: left;
+    font-size: 16px;
     color: rgb(112, 112, 112);
-    
+
 }
+
+.contacto-link-social {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: left;
+    unicode-bidi: isolate;
+    list-style: none;
+}
+
+.contacto-social-item {
+    display: flex;
+    margin-bottom: 10px;
+    font-size: 16px;
+    list-style: none;
+    margin-bottom: 10px;
+    text-align: left;
+    unicode-bidi: isolate;
+    width: 280px;
+
+}
+
+.iconos {
+    cursor: pointer;
+    display: block;
+    font-weight: 400;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+    text-align: center;
+
+    }
+
+.contacto-columna {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 40px;
+    padding-right: 20px;
+    text-align: left;
+    unicode-bidi: isolate;
+    width: 178px;
+    color: rgb(112, 112, 112);
+}
+
+.seccion-titulo {
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 54px;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 48px;
+    margin-block-end: 30px;
+    unicode-bidi: isolate;
+
+}
+
+.contenedor-nombre-apellido {
+    display: flex;
+    text-align: left;
+    unicode-bidi: isolate;
+}
+
+.form-control {
+    display: block;
+    margin-bottom: 15px;
+    flex-grow: 1;
+    position: relative;
+    margin-right: 10px;
+    text-align: left;
+    unicode-bidi: isolate;
+}
+
+.label {
+    margin-bottom: 10px;
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.input {
+    border-radius: 20px;
+    background-color: #bebdbd;
+    border: 1px solid #f9aae1;
+    padding: 10px 15px;
+    display: block;
+    outline: none;
+    font-weight: 400;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: start;
+    width: 231px;
+
+}
+
+.boton-submit {
+    background-color: #FF76CE;
+    color: white;
+    padding: 15px 40px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina {
+    background-color: #ff76ce;
+    color: white;
+}
+
+.footer-nav-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    margin-left: 330px;
+    margin-right: 330px;
+
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;  
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-redes-links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 500px;
+    margin-right: 500px;
+    list-style: none;
+    margin-top: 0;
+}
+
+.imagen-redes {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.hecho-con-amor {
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+
+
+
+
+

@@ -122,37 +122,109 @@
         </div>
     </section>
 <!--Seccion contacto-->
-    <section class="seccion-contacto" id="contacto">
-        <div class="contenedor">
+    <section class="columna-contacto" id="contacto">
+        <div class="contenedor-cont-form">
             <div class="contacto">
-                <div class="contenedor-titulo-parrafo">
-                    <h2 class="titulo-contactame">Contáctame</h2>
-                    <p class="parrafo-descripcion">"Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> temporibus quos alias sint dolorum minima beatae <br>perferendis cupiditate nesciunt? Quis possimus <br> voluptatum et ullam eius aperiam harum"</p>
-                </div>
-                <div>
-                    <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png" class="iconos">
-                    <a href="https://x.com/home" target="_blank">@andreadiazsan</a>
-                </div>
-                <div>
-                    <img src="imagenes/social.png" class="iconos">
-                    <a href="https://www.instagram.com/" target="_blank">@andreadiaz2308</a>
-                </div>
-                <div>
-                    <img src="imagenes/correo-electronico.png" class="iconos">
-                    <a href="https://outlook.live.com/mail/0/" target="_blank">andreadiaz_2308@hotmail.com</a>
-                </div>
-                <div>
-                    <img src="imagenes/github.png" class="iconos">
-                    <a href="https://github.com/andreadiaz519" target="_blank">andreadiaz519</a>
-                </div>
+                <section class="contacto-columna">
+                <h2 class="titulo-contactame">Contáctame</h2>
+                <p class="parrafo-descripcion">"Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> temporibus quos alias sint dolorum minima beatae <br>perferendis cupiditate nesciunt? Quis possimus <br> voluptatum et ullam eius aperiam harum"</p>
+                <section aria-label="links redes sociales">
+                    <ul class="contacto-link-social">
+                        <li class="contacto-social-item">
+                            <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png" class="iconos">
+                            <a href="https://x.com/home" target="_blank">@andreadiazsan</a>
+                        </li>
+                        <li class="contacto-social-item">                    
+                            <img src="imagenes/social.png" class="iconos">
+                            <a href="https://www.instagram.com/" target="_blank">@andreadiaz2308</a>
+                        </li>
+                        <li class="contacto-social-item">
+                            <img src="imagenes/correo-electronico.png" class="iconos">
+                            <a href="https://outlook.live.com/mail/0/" target="_blank">andreadiaz_2308@hotmail.com</a>
+                        </li>
+                        <li class="contacto-social-item">              
+                            <img src="imagenes/github.png" class="iconos">
+                            <a href="https://github.com/andreadiaz519" target="_blank">andreadiaz519</a>
+                        </li>
+                    </ul>
+                </section>
+                
+<!--Formulario-->   
+            <section class="contacto-columna">
+                <h2 class="seccion-titulo">Escríbeme</h2>
+                <form action="http//dominio.com/send/" method="post" class="contenedor-formulario">
+                    <div class="contenedor-nombre-apellido">
+                        <div class="form-control">
+                        <label for="Name">
+                        Nombres:
+                        <input type="text" name="nombre" id="name" class="texto-nombre"   placeholder="Escribe tus nombres" aria-label="Nombre" required>
+                        </label> 
+                        </div>    
+                    </div> 
+                    <div class="form-control">                
+                        <label for="Last-name">
+                        Apellidos:
+                        <input type="text" name="apellido" id="Last-name" class="Texto-apellido"   placeholder="Escribe tus apellidos" aria-label="apellidos" required>
+                        </label>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">
+                        Email:
+                        <input type="text" name="email" id="email" class="Texto-email"   placeholder="Escribe tu email" aria-label="Email" required>
+                        </label>
+                    </div> 
+                    <div class="form-control">  
+                        <label for="massage">
+                        Mensaje
+                        <input type="text" name="massage" id="massage" class="texto-mensaje" placeholder="Escribe un mensaje aqui" required>
+                        </label>
+                    </div>
+                <input type="submit" name="send" id="send" value="Enviar" class="boton-submit"/>
+                </form>
+            </section>
             </div>
         </div>
     </section>
-    <section class="seccion-formulario">
+    <!--Inicio Footer-->
+    <section class="pie-de-pagina">
+        <footer>
+            <nav class="footer-navegacion">
+                <ul class="footer-nav-menu">
+                    <li class="footer-item">
+                    <a href="#about" class="footer-link">HOLA</a>
+                    </li>
+                    <li class="footer-item">
+                    <a href="#conocimientos" class="footer-link">CONOCIMIENTOS</a>
+                    </li>
+                    <li class="footer-item">
+                    <a href="#proyectos" class="footer-link">PROYECTOS</a>
+                    </li>
+                    <li class="footer-item">
+                    <a href="#contacto" class="footer-link">CONTACTO</a>
+                    </li>
+                </ul>
+            </nav>
 
-
-
-    </section>
-</main> 
+        <ul class="footer-redes-links">
+            <li class="footer-social-item">
+                <a href="https://x.com/home"></a>
+                <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png" class="imagen-redes">
+            </li>
+            <li class="footer-social-item">
+                <a href="https://x.com/home"></a>
+                <img src="imagenes/social.png" class="imagen-redes">
+            </li>
+            <li class="footer-social-item">
+                <a href="https://x.com/home"></a>
+                <img src="imagenes/correo-electronico.png" class="imagen-redes">
+            </li>
+            <li class="footer-social-item">
+                <a href="https://x.com/home"></a>
+                <img src="imagenes/github.png" class="imagen-redes">
+            </li>
+        </ul>
+        <h3 class="hecho-con-amor">"Hecho con 💖 por Andrea"</h3>
+        </footer> 
+    </section>       
 </body>
 </html>

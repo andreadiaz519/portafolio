@@ -31,13 +31,16 @@
         </div>
     </header>
     <!--seccion-sobre-mi-->
-    <section class="contenedor-saludo">
+    <section class="contenedor-saludo" id="about">
         <div class="contenido-saludo>">
-            <h1 class="titulo-saludo">¡Hola! Soy <span class="titulo-nombre"><br> Andrea Díaz</span></h1>
-            <p class="descripcion-saludo">Desarrolladora, Psicóloga y fan de la naturaleza</p>
-            <a href="#proyectos" class="boton">LO QUE HAGO</a>
+                <p class="titulo-saludo">¡Hola! Soy</p>
+                <h1 class="titulo-nombre">Andrea Díaz</h1>
+                <p class="descripcion-saludo">Desarrolladora, Psicóloga y fan de la naturaleza</p>
+                <a href="#proyectos" class="boton">LO QUE HAGO</a>
         </div>   
+        <figure class="imagen-chica">
             <img class="imagen-programadora"  src="imagenes/brand communication-pana.png">
+        </figure>
     </section>
     <!--Seccion-conocimientos-->
     <section class="seccion-mis-conocimientos">
@@ -76,12 +79,12 @@
     <!--Seccion de Cita-->
     <section class="contenedor-cita">
         <div class="contenido-cita">
-            <img class="icono-comillas" src="imagenes/cotizar.png">
+            <img class="icono-comillas" src="https://cdn.pixabay.com/photo/2023/04/15/05/48/woman-7927039_1280.png">
             <blockquote>
-                <p class="texto">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eveniet omnis,<br> officiis quis perspiciatis aspernatur! Dolore quae rerum repellat voluptate fugit <br> aliquid dolorem sunt numquam praesentium atque perferendis, nisi facilis"
+                <p class="texto">"La disciplina es el motor que impulsa el éxito. La diferencia entre un jugador bueno <br> y uno excelente es la disciplina. Por lo tanto, recuerda que cada pequeño acto de <br> disciplina nos acerca un paso más a nuestros sueños."
                 </p>
             </blockquote>
-            <h2 class="autor">Someone</h2>
+            <h2 class="autor">Vince Lombardi</h2>
         </div>
     </section>
     <!--Seccion mis proyectos-->
@@ -125,10 +128,9 @@
     <section class="columna-contacto" id="contacto">
         <div class="contenedor-cont-form">
             <div class="contacto">
-                <section class="contacto-columna">
                 <h2 class="titulo-contactame">Contáctame</h2>
                 <p class="parrafo-descripcion">"Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> temporibus quos alias sint dolorum minima beatae <br>perferendis cupiditate nesciunt? Quis possimus <br> voluptatum et ullam eius aperiam harum"</p>
-                <section aria-label="links redes sociales">
+                <div class="links-redes-sociales">
                     <ul class="contacto-link-social">
                         <li class="contacto-social-item">
                             <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png" class="iconos">
@@ -147,43 +149,29 @@
                             <a href="https://github.com/andreadiaz519" target="_blank">andreadiaz519</a>
                         </li>
                     </ul>
-                </section>
+                </div>
                 
 <!--Formulario-->   
-            <section class="contacto-columna">
-                <h2 class="seccion-titulo">Escríbeme</h2>
-                <form action="http//dominio.com/send/" method="post" class="contenedor-formulario">
-                    <div class="contenedor-nombre-apellido">
-                        <div class="form-control">
-                        <label for="Name">
-                        Nombres:
-                        <input type="text" name="nombre" id="name" class="texto-nombre"   placeholder="Escribe tus nombres" aria-label="Nombre" required>
-                        </label> 
-                        </div>    
-                    </div> 
-                    <div class="form-control">                
-                        <label for="Last-name">
-                        Apellidos:
-                        <input type="text" name="apellido" id="Last-name" class="Texto-apellido"   placeholder="Escribe tus apellidos" aria-label="apellidos" required>
-                        </label>
+        <form class="container-box-form">
+        <legend>Escríbeme</legend>
+            <div class="box-name-surname"
+                <label for="Name">Nombres:</label>
+                <input type="text" name="nombre" id="name" class="texto-nombre"   placeholder="Escribe tus nombres" aria-label="Nombre" required>
+                <label for="Last-name">Apellidos:</label>
+                <input type="text" name="apellido" id="Last-name" class="Texto-apellido"   placeholder="Escribe tus apellidos" aria-label="apellidos" required>
+            </div>
+                <div class="box-email-message">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email" class="Texto-email"   placeholder="Escribe tu email" aria-label="Email" required> 
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" class="texto-mensaje" placeholder="Escribe un mensaje aqui" aria-label="Mensaje" maxlength="200" cols="30" rows="10"></textarea>
                     </div>
-                    <div class="form-control">
-                        <label for="email">
-                        Email:
-                        <input type="text" name="email" id="email" class="Texto-email"   placeholder="Escribe tu email" aria-label="Email" required>
-                        </label>
-                    </div> 
-                    <div class="form-control">  
-                        <label for="massage">
-                        Mensaje
-                        <input type="text" name="massage" id="massage" class="texto-mensaje" placeholder="Escribe un mensaje aqui" required>
-                        </label>
-                    </div>
-                <input type="submit" name="send" id="send" value="Enviar" class="boton-submit"/>
+                    <input type="submit" name="send" id="send" value="Enviar" class="boton-submit"/>
                 </form>
-            </section>
             </div>
         </div>
+    </div>
+
     </section>
     <!--Inicio Footer-->
     <section class="pie-de-pagina">
@@ -194,7 +182,7 @@
                     <a href="#about" class="footer-link">HOLA</a>
                     </li>
                     <li class="footer-item">
-                    <a href="#conocimientos" class="footer-link">CONOCIMIENTOS</a>
+                    <a href="#habilidades" class="footer-link">CONOCIMIENTOS</a>
                     </li>
                     <li class="footer-item">
                     <a href="#proyectos" class="footer-link">PROYECTOS</a>

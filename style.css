@@ -46,42 +46,78 @@
 }
 
 .contenedor-saludo {
+    height: 500px;
     display: flex;
     padding: 90px;
     margin: 60px;
+    margin-left: 160px;
+    margin-top: 90px;
+    padding-bottom: 80px;
     justify-content: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 80px;
+    text-align: center;
+    unicode-bidi: isolate;
 }
 
 .contenido-saludo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    max-width: 100%;
     font-size: 30px;
-    color: #fdffc2;
-    background-color: #fdffc2;
+    unicode-bidi: isolate;
+    width: 197px;
 }
 
+.informacion {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    unicode-bidi: isolate;
+    width: 197px;
+
+}
 
 .titulo-saludo {
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 0;
-    margin-bottom: 5px;
     font-weight: 800;
     color: rgb(112, 112, 112);
+    margin-block-end: 5px;
+    line-height: 42px;
+    unicode-bidi: isolate;
+    text-align: left;
 }
 
 .titulo-nombre {
-    margin-top: 0;
-    margin-bottom: 5px;
+    display: block;
+    margin-top: 20px;
     color: #ff76ce;
     font-size: 60px;
     font-weight: 900;
-    line-height: 1.2;
+    line-height: 54px;
+    text-align: left;
+    margin-block-end: 5px;
+    unicode-bidi: isolate;
 }
 
 .descripcion-saludo {
     display: block;
-    line-height: 1.;
+    padding-top: 15px;
+    line-height: 22.4px;
     margin-bottom: 40px;
+    margin-block-end: 40px;
+    margin-block-start: 16px;
+    text-align: left;
     color: #616161;
     font-size: 16px;
+    unicode-bidi: isolate;
 }
 
 .boton {
@@ -96,20 +132,26 @@
     align-items: center;
     text-decoration: none;
     width: 150px;
+    cursor: pointer;
+    
+    
+}
+
+.imagen-chica {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagen-programadora {
-    margin-top: 30px;
-    width: 400px;
-    height: 400px;
-    display: flex;
-    justify-content: flex-end;
-    padding-left: ;
+    width: 350px;
+    height: 350px;
+
 
 }
 
 .seccion-mis-conocimientos {
-    background-color: #fabee8;
+    background-color: #ffd4f3;
     padding: 80px 20px;
     display: flex;
     justify-content: center;
@@ -177,7 +219,7 @@
 
 .contenedor-cita {
     padding: 80px 20px;
-    background-color: #FF76CE;
+    background-color: #ff76ce;
     color: white;
     display: flex;
     justify-content: center;
@@ -203,7 +245,7 @@
 }
 
 .icono-comillas {
-    background-color:rgb(254, 127, 191);
+    background-color:#ff76ce;
     height: 100px;
     width: 100px;
 }
@@ -219,7 +261,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #fcceee;
+    background-color: #ffd4f3;
 }
 
 .Titulo-mis-proyectos {
@@ -277,28 +319,22 @@
 }
 
 .columna-contacto {
-    background-color: #f9aae1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    unicode-bidi: isolate;
-    padding: 0;
 
 }
 
-.contenedor-cont-form {
+.contenedor-cont-form { 
     display: flex;
     text-align: center;
     justify-content: center;
     unicode-bidi: isolate;
     max-width: 100%;
     padding-bottom: 120px;
-    padding-top: 150px;
+    padding-top: 150px; 
+    border-image-repeat: stretch; 
 }
 
 .contacto {
-    background-color: #fce0f2;
+    background-color: #ffd4f3;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px ;
     padding: 20px;
@@ -308,20 +344,11 @@
     border-radius: 15px;
     height: 800px;
     width: 900px;
-    box-shadow: 2px 2px 2px #f9aae1;
+    box-shadow: 3px 3px 3px 3px#fa7cd8;
     unicode-bidi: isolate;
-    
-}
+        
+    }
 
-.contacto-columna {
-    width: 300px;
-    margin-bottom: 40px;
-    display: block;
-    text-align: left;
-    padding-right: 20px;
-    text-align: left;
-    unicode-bidi: isolate;
-}
 
 .titulo-contactame {
     margin-bottom: 30px;
@@ -348,7 +375,7 @@
 
 .contacto-link-social {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     font-size: 16px;
     margin-top: 40px;
     text-align: left;
@@ -377,7 +404,7 @@
     margin-right: 10px;
     text-align: center;
 
-    }
+}
 
 .contacto-columna {
     display: block;
@@ -391,7 +418,7 @@
 }
 
 .seccion-titulo {
-    display: block;
+    display: flex;
     font-size: 40px;
     font-weight: 900;
     line-height: 54px;
@@ -403,18 +430,13 @@
 
 }
 
-.contenedor-nombre-apellido {
+.container-box-form {
     display: flex;
-    text-align: left;
-    unicode-bidi: isolate;
+    flex-direction: column;
 }
 
-.form-control {
-    display: block;
-    margin-bottom: 15px;
-    flex-grow: 1;
-    position: relative;
-    margin-right: 10px;
+.box-name-surname {
+    display: flex;
     text-align: left;
     unicode-bidi: isolate;
 }
@@ -444,6 +466,8 @@
 .boton-submit {
     background-color: #FF76CE;
     color: white;
+    border-radius: 50px;
+    width: 120px;
     padding: 15px 40px;
     font-weight: 500;
     display: flex;
@@ -451,9 +475,11 @@
     align-items: center;
 }
 
+
 .pie-de-pagina {
     background-color: #ff76ce;
     color: white;
+
 }
 
 .footer-nav-menu {
@@ -462,7 +488,6 @@
     padding: 80px;
     margin-left: 330px;
     margin-right: 330px;
-
 }
 
 .footer-item {

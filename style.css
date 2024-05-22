@@ -35,6 +35,11 @@
     color: white;
 }
 
+.link-nav:hover {
+    background-color: #f9aae1;
+    border-radius: 30px;
+}
+
 .link-nav-select {
     transition: 0.2s;
     background-color: white;
@@ -43,6 +48,11 @@
     border-radius: 100px;
     line-height: 2.5;
     padding: 5px 20px;
+
+}
+
+.link-nav-select:hover {
+    background-color:#c56c9f;
 }
 
 .contenedor-saludo {
@@ -132,15 +142,18 @@
     align-items: center;
     text-decoration: none;
     width: 150px;
-    cursor: pointer;
-    
-    
+    cursor: pointer; 
+}
+
+.boton:hover {
+    background-color: #f9aae1;
 }
 
 .imagen-chica {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 150px;
 }
 
 .imagen-programadora {
@@ -202,6 +215,11 @@
     border: 1px solid #dddfe5;
     border-radius: 8px;
     box-shadow: 5px 5px 5px #bebdbd;
+}
+
+.item-habilidad:hover {
+    background-color: #fcc2ea;
+    
 }
 
 .icono {
@@ -318,8 +336,8 @@
     margin: 0.75em;
 }
 
-.columna-contacto {
-
+.project:hover {
+    background-color: #fcc2ea;
 }
 
 .contenedor-cont-form { 
@@ -403,7 +421,8 @@
     width: 35px;
     margin-right: 10px;
     text-align: center;
-
+    border-radius: 50%;
+    background-color: white;
 }
 
 .contacto-columna {
@@ -473,27 +492,42 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.boton-submit:hover {
+    background-color: #f9aae1;
 }
 
 
 .pie-de-pagina {
     background-color: #ff76ce;
     color: white;
+    width: 100%;
+
 
 }
 
 .footer-nav-menu {
     display: flex;
     justify-content: space-between;
-    padding: 80px;
-    margin-left: 330px;
-    margin-right: 330px;
+    padding: 40px;
+    margin-left: 370px;
+    margin-right: 370px;
+    margin-bottom: 20px;
 }
+
 
 .footer-item {
     display: flex;
     justify-content: space-between;
     font-size: 15px;  
+}
+
+.footer-item:hover {
+    background-color: #fcc2ea;
+    border-radius: 10px;
+
 }
 
 .footer-link {
@@ -511,16 +545,17 @@
 
 .imagen-redes {
     display: block;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     margin-bottom: 30px;
     background-color: white;
     border-radius: 50%;
+    margin-top: 0px;
 }
 
 .hecho-con-amor {
     text-align: center;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
 }
 
 

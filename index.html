@@ -13,9 +13,12 @@
 <body>
     <header>
         <!--Menu-navegacion-->
-        <div class="contenedor-menu">
-            <nav class="contenedor-menu-1">
-            <ul class="menu-navegacion">
+            <nav class="menu-navegacion">
+                <div class="menu-controles">
+                    <a href="" class="apertura"></a>
+                    <a href="" class="cierre" ></a>
+                </div>
+            <ul class="nav-ul">       
                 <li class="item"> 
                     <a href="#about" class="link-nav">HOLA</a></li>
                 <li class="item">
@@ -26,10 +29,8 @@
                     <a href="#contacto" class="link-nav-select">CONTACTO</a></li>
             </ul>
         </nav>   
-        <button type="button" class="abrir-boton">
-        </button>
-        </div>
     </header>
+    <main>
     <!--seccion-sobre-mi-->
     <section class="contenedor-saludo" id="about">
         <div class="contenido-saludo>">
@@ -79,7 +80,7 @@
     <!--Seccion de Cita-->
     <section class="contenedor-cita">
         <div class="contenido-cita">
-            <img class="icono-comillas" src="https://cdn.pixabay.com/photo/2023/04/15/05/48/woman-7927039_1280.png">
+            <img class="icono-muñequita" src="https://cdn.pixabay.com/photo/2023/04/15/05/48/woman-7927039_1280.png">
             <blockquote>
                 <p class="texto">"La disciplina es el motor que impulsa el éxito. La diferencia entre un jugador bueno <br> y uno excelente es la disciplina. Por lo tanto, recuerda que cada pequeño acto de <br> disciplina nos acerca un paso más a nuestros sueños."
                 </p>
@@ -124,55 +125,55 @@
             </div>
         </div>
     </section>
-<!--Seccion contacto-->
-    <section class="columna-contacto" id="contacto">
-        <div class="contenedor-cont-form">
-            <div class="contacto">
-                <h2 class="titulo-contactame">Contáctame</h2>
-                <p class="parrafo-descripcion">"Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> temporibus quos alias sint dolorum minima beatae <br>perferendis cupiditate nesciunt? Quis possimus <br> voluptatum et ullam eius aperiam harum"</p>
-                <div class="links-redes-sociales">
-                    <ul class="contacto-link-social">
-                        <li class="contacto-social-item">
-                            <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png" class="iconos">
-                            <a href="https://x.com/home" target="_blank">@andreadiazsan</a>
-                        </li>
-                        <li class="contacto-social-item">                    
-                            <img src="imagenes/social.png" class="iconos">
-                            <a href="https://www.instagram.com/" target="_blank">@andreadiaz2308</a>
-                        </li>
-                        <li class="contacto-social-item">
-                            <img src="imagenes/correo-electronico.png" class="iconos">
-                            <a href="https://outlook.live.com/mail/0/" target="_blank">andreadiaz_2308@hotmail.com</a>
-                        </li>
-                        <li class="contacto-social-item">              
-                            <img src="imagenes/github.png" class="iconos">
-                            <a href="https://github.com/andreadiaz519" target="_blank">andreadiaz519</a>
-                        </li>
-                    </ul>
-                </div>
-                
-<!--Formulario-->   
-        <form class="container-box-form">
-        <legend>Escríbeme</legend>
-            <div class="box-name-surname"
-                <label for="Name">Nombres:</label>
-                <input type="text" name="nombre" id="name" class="texto-nombre"   placeholder="Escribe tus nombres" aria-label="Nombre" required>
-                <label for="Last-name">Apellidos:</label>
-                <input type="text" name="apellido" id="Last-name" class="Texto-apellido"   placeholder="Escribe tus apellidos" aria-label="apellidos" required>
-            </div>
-                <div class="box-email-message">
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" id="email" class="Texto-email"   placeholder="Escribe tu email" aria-label="Email" required> 
-                    <label for="message">Mensaje</label>
-                    <textarea name="message" id="message" class="texto-mensaje" placeholder="Escribe un mensaje aqui" aria-label="Mensaje" maxlength="200" cols="30" rows="10"></textarea>
-                    </div>
-                    <input type="submit" name="send" id="send" value="Enviar" class="boton-submit"/>
-                </form>
-            </div>
+    
+    <!--Seccion contacto-->
+<section class="columna-contacto" id="contacto">
+    <div class="contenedor-cont-form">
+        <div class="contacto"></div>
+        <h2 class="titulo-contactame">Contáctame</h2>
+        <p class="parrafo-descripcion">"Lorem ipsum dolor sit amet consectetur <br>adipisicing elit temporibus quos alias sint <br>
+            dolorum minima beatae perferendis cupiditate nesciunt? Quis possimus voluptatum et ullam <br>eius aperiam harum"</p>
+        <div class="links-redes-sociales">
+            <ul class="contacto-link-social">
+                <li class="contacto-social-item">
+                    <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png" class="iconos">
+                    <a href="https://x.com/home" target="_blank" class="link">@andreadiazsan</a>
+                </li>
+                <li class="contacto-social-item">                    
+                    <img src="imagenes/social.png" class="iconos">
+                    <a href="https://www.instagram.com/" target="_blank" class="link">@andreadiaz2308</a>
+                </li>
+                <li class="contacto-social-item">
+                    <img src="imagenes/correo-electronico.png" class="iconos">
+                    <a href="https://outlook.live.com/mail/0/" target="_blank" class="link">andreadiaz_2308@hotmail.com</a>
+                </li>
+                <li class="contacto-social-item">              
+                    <img src="imagenes/github.png" class="iconos">
+                    <a href="https://github.com/andreadiaz519" target="_blank" class="link">andreadiaz519</a>
+                </li>
+            </ul>
         </div>
+    </div>   
+  <!--Formulario-->   
+  <form class="container-box-form">
+  <legend class="titulo-escribeme">Escríbeme</legend>
+    <div class="box-name-surname">
+        <label for="Name">Nombres*</label>
+            <input type="text" name="nombre" id="name" class="texto-nombre"   placeholder="Escribe tus nombres" aria-label="Nombre" required></label>
+        <label for="Last-name">Apellidos*</label>
+            <input type="text" name="apellido" id="Last-name" class="texto-apellido"   placeholder="Escribe tus apellidos" aria-label="apellidos" required></label>
     </div>
-
-    </section>
+        <div class="box-email-message">
+        <label for="email">Email*</label>
+            <input type="text" name="email" id="email" class="texto-email"   placeholder="Escribe tu email" aria-label="Email" required></label>
+        <label for="message">Mensaje </label>
+            <textarea name="message" id="message" class="texto-mensaje" placeholder="Escribe un mensaje aqui" aria-label="Mensaje" maxlength="150" cols="20" rows="5"></textarea>
+            </div>
+  
+        <input type="submit" name="send" id="send" value="Enviar" class="boton-submit"/>
+    </form>
+  </section>
+</main>
     <!--Inicio Footer-->
     <section class="pie-de-pagina">
         <footer>

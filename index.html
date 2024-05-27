@@ -13,10 +13,11 @@
 <body>
     <header>
         <!--Menu-navegacion-->
-            <nav class="menu-navegacion">
+            <!--Menu-hamburguesa-->
+            <nav class="menu-navegacion" id="menu" >
                 <div class="menu-controles">
-                    <a href="" class="apertura"></a>
-                    <a href="" class="cierre" ></a>
+                    <a href="#menu" class="open"></a>
+                    <a href="" class="close" ></a>
                 </div>
             <ul class="nav-ul">       
                 <li class="item"> 
@@ -39,7 +40,7 @@
                 <p class="descripcion-saludo">Desarrolladora, Psicóloga y fan de la naturaleza</p>
                 <a href="#proyectos" class="boton">LO QUE HAGO</a>
         </div>   
-        <figure class="imagen-chica">
+        <figure>
             <img class="imagen-programadora"  src="imagenes/brand communication-pana.png">
         </figure>
     </section>
@@ -154,13 +155,13 @@
             </ul>
         </div>
     </div>   
-  <!--Formulario-->   
-  <form class="container-box-form">
-  <legend class="titulo-escribeme">Escríbeme</legend>
+<!--Formulario-->   
+    <form class="container-box-form">
+    <legend class="titulo-escribeme">Escríbeme</legend>
     <div class="box-name-surname">
-        <label for="Name">Nombres*</label>
+        <label for="Name">Nombres*
             <input type="text" name="nombre" id="name" class="texto-nombre"   placeholder="Escribe tus nombres" aria-label="Nombre" required></label>
-        <label for="Last-name">Apellidos*</label>
+        <label for="Last-name">Apellidos*
             <input type="text" name="apellido" id="Last-name" class="texto-apellido"   placeholder="Escribe tus apellidos" aria-label="apellidos" required></label>
     </div>
         <div class="box-email-message">
@@ -169,53 +170,54 @@
         <label for="message">Mensaje </label>
             <textarea name="message" id="message" class="texto-mensaje" placeholder="Escribe un mensaje aqui" aria-label="Mensaje" maxlength="150" cols="20" rows="5"></textarea>
             </div>
-  
+
         <input type="submit" name="send" id="send" value="Enviar" class="boton-submit"/>
     </form>
-  </section>
+</section>
 </main>
     <!--Inicio Footer-->
-    <section class="pie-de-pagina">
-        <footer>
-            <nav class="footer-navegacion">
-                <ul class="footer-nav-menu">
-                    <li class="footer-item">
-                    <a href="#about" class="footer-link">HOLA</a>
-                    </li>
-                    <li class="footer-item">
-                    <a href="#habilidades" class="footer-link">CONOCIMIENTOS</a>
-                    </li>
-                    <li class="footer-item">
-                    <a href="#proyectos" class="footer-link">PROYECTOS</a>
-                    </li>
-                    <li class="footer-item">
+    <footer class="pie-de-pagina">
+        <nav class="footer-navegacion">
+            <ul>
+                <li class="footer-item">
+                    <a href="#about">HOLA</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#habilidades">CONOCIMIENTOS</a>
+                </li>
+                <li class="footer-item">
+                    <a href="#proyectos">PROYECTOS</a>
+                </li>
+                <li class="footer-item">
                     <a href="#contacto" class="footer-link">CONTACTO</a>
-                    </li>
-                </ul>
-            </nav>
+                </li>
+            </ul>
+        </nav>
 
         <ul class="footer-redes-links">
-            <li class="footer-social-item">
+            <li>
                 <a href="https://x.com/home" target="_blank">
-                <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png" class="imagen-redes">
-                </a>   
+                    <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png">
+                </a>
             </li>
-            <li class="footer-social-item">
+            <li>
                 <a href="https://www.instagram.com/" target="_blank">
-                <img src="imagenes/social.png" class="imagen-redes"></a>
+                    <img src="imagenes/social.png"></a>
             </li>
-            <li class="footer-social-item">
+            <li>
                 <a href="https://outlook.live.com/mail/0/" target="_blank">
-                <img src="imagenes/correo-electronico.png" class="imagen-redes"></a>
-                
+                    <img src="imagenes/correo-electronico.png"></a>
+
             </li>
-            <li class="footer-social-item">  
-                <a href="https://github.com/andreadiaz519" target="_blank"> 
-                <img src="imagenes/github.png" class="imagen-redes"></a>
+            <li>
+                <a href="https://github.com/andreadiaz519" target="_blank">
+                    <img src="imagenes/github.png"></a>
             </li>
+            
         </ul>
-        <h3 class="hecho-con-amor">"Hecho con 💖 por Andrea"</h3>
-        </footer> 
-    </section>       
+        <div class="hecho-con-amor">
+        <h3 >"Hecho con 💖 por Andrea"</h3>
+    </div>
+    </footer>
 </body>
 </html>

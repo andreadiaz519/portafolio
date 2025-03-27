@@ -8,216 +8,379 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Oswald:wght@200..700&family=Poetsen+One&display=swap" rel="stylesheet">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
+
+    
+
 </head>
 <body>
-    <header>
-        <!--Menu-navegacion-->
-            <!--Menu-hamburguesa--> <!--No me quedo el menu hamburguesa-->
-            <nav class="menu-navegacion" id="menu" >
-                <div class="menu-botones">
-                    <a href="#menu" class="apertura"></a>
-                    <a href="" class="cierre"></a>
-                </div>
-            <ul class="nav-ul">       
-                <li class="item"> 
-                    <a href="#about" class="link-nav">HOLA</a></li>
-                <li class="item">
-                    <a href="#habilidades" class="link-nav">CONOCIMIENTOS</a></li>
-                <li class="item">
-                    <a href="#proyectos" class="link-nav" >PROYECTOS</a></li>
-                <li class="item-select"> 
-                    <a href="#contacto" class="link-nav-select">CONTACTO</a></li>
-            </ul>
-        </nav>   
-    </header>
-    <main>
-    <!--seccion-sobre-mi-->
-    <section class="contenedor-saludo" id="about">
-        <div class="contenido-saludo>">
-                <p class="titulo-saludo">¡Hola! Soy</p>
-                <h1 class="titulo-nombre">Andrea Díaz</h1>
-                <p class="descripcion-saludo">Desarrolladora, Psicóloga y fan de la naturaleza</p>
-                <a href="#proyectos" class="boton">LO QUE HAGO</a>
-        </div>   
-        <figure>
-            <img class="imagen-programadora"  src="imagenes/brand communication-pana.png">
-        </figure>
-    </section>
-    <!--Seccion-conocimientos-->
-    <section class="seccion-mis-conocimientos">
-        <div class="contenedor-mis-conocimientos" id="habilidades">
-            <h2 class="titulo">Mis conocimientos</h2>
-            <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> repellat corporis eius exercitationem a corrupti id <br> quas aperiam harum possimus.</p>
-            <div class="contenedor-habilidades">
-    <!--Seccion-habilidades-->
-                <div class="item-habilidad">
-                    <img class="icono" src="https://cdn-icons-png.flaticon.com/256/174/174854.png"></img>
-                    <p class="titulo-habilidad">HTML 5</p>  
-                </div>
-                <div class="item-habilidad">
-                    <img class="icono" src="https://blog.desafiolatam.com/wp-content/uploads/2023/10/68747470733a2f2f776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667.svg" alt="CSS">
-                    <p class="titulo-habilidad">CSS 3</p>
-                </div>
-                <div class="item-habilidad">
-                    <img class="icono" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png"></img>
-                    <p class="titulo-habilidad">Sass</p>
-                </div>
-                <div class="item-habilidad">
-                    <img class="icono" src="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png"></img>
-                    <p class="titulo-habilidad">JavaScript</p>
-                </div>
-                <div class="item-habilidad">
-                    <img class="icono" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png"></img>
-                        <p class="titulo-habilidad">React</p>
-                    </div>
-                        <div class="item-habilidad">
-                            <img class="icono" src="https://victorroblesweb.es/wp-content/uploads/2018/04/git.png"></img>
-                            <p class="titulo-habilidad">GIT</p>
-                        </div>
-                    </div>
-                </div>
-    </section>
-    <!--Seccion de Cita-->
-    <section class="contenedor-cita">
-        <div class="contenido-cita">
-            <img class="icono-muñequita" src="https://cdn.pixabay.com/photo/2023/04/15/05/48/woman-7927039_1280.png">
-            <blockquote>
-                <p class="texto">"La disciplina es el motor que impulsa el éxito. La diferencia entre un jugador bueno <br> y uno excelente es la disciplina. Por lo tanto, recuerda que cada pequeño acto de <br> disciplina nos acerca un paso más a nuestros sueños."
-                </p>
-            </blockquote>
-            <h2 class="autor">Vince Lombardi</h2>
-        </div>
-    </section>
-    <!--Seccion mis proyectos-->
-    <section class="mis-proyectos" id="proyectos">
-        <div class="contenido-mis-proyectos">
-            <h2 class="Titulo-mis-proyectos">Mis Proyectos</h2>
-            <p class="parrafo-mis-proyectos">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Commodi nulla ab blanditiis <br> ipsam, tempora animi.</p>
-            <div class="parrilla-proyectos">
-                <a href="#" target="_blank" class="project">
-                    <img src="imagenes/Online resume-amico.png" class="imagen-proyecto">
-                    <p class="Titulo-proyectos">Portafolio</p>
-                    </a>
-                <a href="#" target="_blank" class="project" >
-                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.46.32 AM.jpeg" class="imagen-proyecto">
-                    <p class="Titulo-proyectos">Generador de memes</p>
-                </a>
-                <a href="#" target="_blank" class="project">
-                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.55.19 AM.jpeg" class="imagen-proyecto">
-                    <p class="Titulo-proyectos">Match 3</p>
-                </a>
-                <a href="#" target="_blank" class="project">
-                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.46.27 AM.jpeg" class="imagen-proyecto">
-                    <p class="Titulo-proyectos">Controlador de gastos</p>
-                </a>
-                <a href="#" target="_blank" class="project">
-                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.46.37 AM.jpeg" class="imagen-proyecto">
-                    <p class="Titulo-proyectos">Administrador de reuniones</p>
-                </a>
-                <a href="#" target="_blank" class="project">
-                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.37.43 AM.jpeg" class="imagen-proyecto">
-                    <p class="Titulo-proyectos">Todo app</p>
-                </a>
-                <a href="#" target="_blank" class="project">
-                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.54.37 AM.jpeg" class="imagen-proyecto">
-                    <p class="Titulo-proyectos">Buscardor de películas</p>
-                </a>
-            </div>
-        </div>
-    </section>
-    
-    <!--Seccion contacto-->
-<section class="columna-contacto" id="contacto">
-    <div class="contenedor-cont-form">
-        <div class="contacto"></div>
-        <h2 class="titulo-contactame">Contáctame</h2>
-        <p class="parrafo-descripcion">"Lorem ipsum dolor sit amet consectetur <br>adipisicing elit temporibus quos alias sint <br>
-            dolorum minima beatae perferendis cupiditate nesciunt? Quis possimus voluptatum et ullam <br>eius aperiam harum"</p>
-        <div class="links-redes-sociales">
-            <ul class="contacto-link-social">
-                <li class="contacto-social-item">
-                    <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png" class="iconos">
-                    <a href="https://x.com/home" target="_blank" class="link">@andreadiazsan</a>
-                </li>
-                <li class="contacto-social-item">                    
-                    <img src="imagenes/social.png" class="iconos">
-                    <a href="https://www.instagram.com/" target="_blank" class="link">@andreadiaz2308</a>
-                </li>
-                <li class="contacto-social-item">
-                    <img src="imagenes/correo-electronico.png" class="iconos">
-                    <a href="https://outlook.live.com/mail/0/" target="_blank" class="link">andreadiaz_2308@hotmail.com</a>
-                </li>
-                <li class="contacto-social-item">              
-                    <img src="imagenes/github.png" class="iconos">
-                    <a href="https://github.com/andreadiaz519" target="_blank" class="link">andreadiaz519</a>
-                </li>
-            </ul>
-        </div>
-    </div>   
-<!--Formulario-->   
-    <form class="container-box-form">
-    <legend class="titulo-escribeme">Escríbeme</legend>
-    <div class="box-name-surname">
-        <label for="Name">Nombres*
-            <input type="text" name="nombre" id="name" class="texto-nombre"   placeholder="Escribe tus nombres" aria-label="Nombre" required></label>
-        <label for="Last-name">Apellidos*
-            <input type="text" name="apellido" id="Last-name" class="texto-apellido"   placeholder="Escribe tus apellidos" aria-label="apellidos" required></label>
-    </div>
-        <div class="box-email-message">
-        <label for="email">Email*</label>
-            <input type="text" name="email" id="email" class="texto-email"   placeholder="Escribe tu email" aria-label="Email" required></label>
-        <label for="message">Mensaje </label>
-            <textarea name="message" id="message" class="texto-mensaje" placeholder="Escribe un mensaje aqui" aria-label="Mensaje" maxlength="150" cols="20" rows="5"></textarea>
-            </div>
-
-        <input type="submit" name="send" id="send" value="Enviar" class="boton-submit"/>
-    </form>
-</section>
-</main>
-    <!--Inicio Footer-->
-    <footer class="pie-de-pagina">
-        <nav class="footer-navegacion">
-            <ul>
-                <li class="footer-item">
-                    <a href="#about">HOLA</a>
-                </li>
-                <li class="footer-item">
-                    <a href="#habilidades">CONOCIMIENTOS</a>
-                </li>
-                <li class="footer-item">
-                    <a href="#proyectos">PROYECTOS</a>
-                </li>
-                <li class="footer-item">
-                    <a href="#contacto" class="footer-link">CONTACTO</a>
-                </li>
-            </ul>
-        </nav>
-
-        <ul class="footer-redes-links">
-            <li>
-                <a href="https://x.com/home" target="_blank">
-                    <img src="imagenes/1486051940-twitersocialnetworkbrandlogo_79084.png">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="imagenes/social.png"></a>
-            </li>
-            <li>
-                <a href="https://outlook.live.com/mail/0/" target="_blank">
-                    <img src="imagenes/correo-electronico.png"></a>
-
-            </li>
-            <li>
-                <a href="https://github.com/andreadiaz519" target="_blank">
-                    <img src="imagenes/github.png"></a>
-            </li>
+    <header class="bg-gradient-to-b from-rose-300 to-purple-400 py-8 px-16 shadow-lg border-b border-gray-400">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Logo -->
+            <h1 class="text-purple-900 text-4xl font-extrabold tracking-wider drop-shadow-lg">Portafolio</h1>
             
-        </ul>
-        <div class="hecho-con-amor">
-        <h3 >"Hecho con 💖 por Andrea"</h3>
+            <!-- Botón Hamburguesa -->
+            <button id="menu-btn" class="text-purple-900 text-3xl md:hidden focus:outline-none">
+                &#9776;
+            </button>
+            
+            <!-- Menú Desktop -->
+            <nav id="menu" class="hidden md:flex space-x-12 text-purple-900 text-xl font-bold">
+                <a href="#" class="hover:text-purple-600 hover:underline hover:scale-110 transition-all">Inicio</a>
+                <a href="#MisConocimientos" class="hover:text-purple-600 hover:underline hover:scale-110 transition-all">Productos</a>
+                <a href="#contacto" class="hover:text-purple-600 hover:underline hover:scale-110 transition-all">Contacto</a>
+                <a href="#perfil" class="hover:text-purple-600 hover:underline hover:scale-110 transition-all">Mi Perfil</a>
+            </nav>
+        </div>
+    
+        <!-- Menú desplegable en móviles -->
+        <div id="mobile-menu" class="hidden md:hidden flex flex-col items-center bg-purple-200 p-6 text-purple-900 space-y-4 shadow-lg border-t border-gray-400">
+            <a href="#" class="hover:text-purple-600 hover:underline hover:scale-110 transition-all">Inicio</a>
+            <a href="#MisConocimientos" class="hover:text-purple-600 hover:underline hover:scale-110 transition-all">Productos</a>
+            <a href="#contacto" class="hover:text-purple-600 hover:underline hover:scale-110 transition-all">Contacto</a>
+            <a href="#perfil" class="hover:text-purple-600 hover:underline hover:scale-110 transition-all">Mi Perfil</a>
+        </div>
+    </header>
+    
+    
+    
+    
+    
+    
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+
+    <main>
+
+   
+<!-- Sección Sobre Mí -->
+
+<section class="w-full flex flex-col md:flex-row items-center justify-center gap-8 px-10 md:px-20 py-10 bg-gradient-to-b from-purple-200 to-pink-100
+text-white shadow-xl">
+    <!-- Contenido de texto -->
+    <div class="max-w-lg text-center md:text-left">
+        <p class="font-vibes text-pink-500 text-4xl">¡Hola! Soy</p>
+<h1 class="font-oswald text-6xl text-purple-700 drop-shadow-lg">Andrea Díaz</h1>
+<p class="text-lg font-semibold text-white mt-2 drop-shadow-md">
+    Desarrolladora, Psicóloga y fan de la naturaleza
+</p>
+
+
+<a href="#proyectos" class="mt-6 inline-block px-6 py-3 text-white font-bold text-lg rounded-md shadow-md transition-all duration-300 hover:scale-105 
+bg-gradient-to-r from-pink-300 to-purple-400 hover:from-pink-400 hover:to-purple-500">
+    🌟 LO QUE HAGO
+</a>
+
+
     </div>
-    </footer>
+    
+
+    <!-- Imagen -->
+    <figure class="w-full md:w-auto flex justify-center">
+        <img class="max-w-xs md:max-w-sm w-full bg-transparent" src="imagenes/brand communication-pana.png" alt="Ilustración programadora">
+    </figure>
+    
+</section>
+
+
+
+
+
+
+
+<!-- Sección de conocimientos -->
+<section class="bg-gradient-to-b from-purple-300 to-indigo-200 text-white py-20 flex flex-col items-center">
+    <div id="MisConocimientos" class="text-center py-10 mb-10">
+        <h2 class="text-6xl font-extrabold tracking-wide drop-shadow-lg mb-8">Mis conocimientos</h2>
+        <p class="text-xl font-light text-gray-500 max-w-3xl mx-auto">
+            💡 "Cuento con experiencia en diversas tecnologías y herramientas que me permiten desarrollar soluciones eficientes y creativas. Siempre estoy en constante aprendizaje para mejorar mis habilidades y adaptarme a nuevos desafíos."
+        </p>
+    </div>
+    
+    
+
+    <!-- Contenedor de habilidades -->
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+        <!-- HTML -->
+        <div class="flex flex-col items-center justify-center bg-white text-purple-700 w-52 h-52 rounded-2xl shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-purple-600 to-pink-500 hover:text-white">
+            <img class="w-16 h-16" src="https://cdn-icons-png.flaticon.com/256/174/174854.png" alt="HTML">
+            <p class="mt-3 text-2xl font-bold">HTML 5</p>
+        </div>
+
+        <!-- CSS -->
+        <div class="flex flex-col items-center justify-center bg-white text-purple-700 w-52 h-52 rounded-2xl shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-purple-600 to-pink-500 hover:text-white">
+            <img class="w-16 h-16" src="https://blog.desafiolatam.com/wp-content/uploads/2023/10/68747470733a2f2f776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f6373732d332e737667.svg" alt="CSS">
+            <p class="mt-3 text-2xl font-bold">CSS 3</p>
+        </div>
+
+        <!-- Sass -->
+        <div class="flex flex-col items-center justify-center bg-white text-purple-700 w-52 h-52 rounded-2xl shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-purple-600 to-pink-500 hover:text-white">
+            <img class="w-16 h-16" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" alt="Sass">
+            <p class="mt-3 text-2xl font-bold">Sass</p>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="flex flex-col items-center justify-center bg-white text-purple-700 w-52 h-52 rounded-2xl shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-purple-600 to-pink-500 hover:text-white">
+            <img class="w-16 h-16" src="https://ayudawp.com/wp-content/uploads/2017/01/javascript-logo-escudo.png" alt="JavaScript">
+            <p class="mt-3 text-2xl font-bold">JavaScript</p>
+        </div>
+
+        <!-- React -->
+        <div class="flex flex-col items-center justify-center bg-white text-purple-700 w-52 h-52 rounded-2xl shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-purple-600 to-pink-500 hover:text-white">
+            <img class="w-16 h-16" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" alt="React">
+            <p class="mt-3 text-2xl font-bold">React</p>
+        </div>
+
+        <!-- Git -->
+        <div class="flex flex-col items-center justify-center bg-white text-purple-700 w-52 h-52 rounded-2xl shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-gradient-to-r from-purple-600 to-pink-500 hover:text-white">
+            <img class="w-16 h-16" src="https://victorroblesweb.es/wp-content/uploads/2018/04/git.png" alt="Git">
+            <p class="mt-3 text-2xl font-bold">GIT</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- Sección de Cita -->
+<section class="bg-gradient-to-b from-gray-100 to-white py-16 mt-10 border-t border-gray-300/50 py-16 mt-5 flex items-center justify-center bg-gradient-to-r from-purple-700 to-pink-500 text-white py-10 px-6">
+    <div class="max-w-4xl w-full bg-white text-purple-700 rounded-3xl p-8 shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl flex items-center space-x-6">
+        <!-- Imagen pequeña -->
+        <img class="w-20 h-20 rounded-full shadow-md" src="https://cdn.pixabay.com/photo/2023/04/15/05/48/woman-7927039_1280.png" alt="Muñequita">
+        
+        <!-- Cita y autor -->
+        <div class="text-left">
+            <blockquote class="text-lg font-light italic text-gray-600">
+                "La disciplina es el motor que impulsa el éxito. La diferencia entre un jugador bueno y uno excelente es la disciplina. Por lo tanto, recuerda que cada pequeño acto de disciplina nos acerca un paso más a nuestros sueños."
+            </blockquote>
+            <h2 class="mt-4 text-xl font-bold text-purple-600">Vince Lombardi</h2>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- Sección Mis Proyectos -->
+<section id="proyectos" class="py-24 mt-5 bg-gradient-to-r from-purple-700 to-pink-500 text-white text-center">
+    <div class="max-w-6xl mx-auto px-6">
+        <h2 class="text-5xl font-extrabold mb-10">Mis Proyectos</h2>
+        <p class="text-xl mb-12 max-w-3xl mx-auto">💻 "Estos son algunos de los proyectos en los que he trabajado, aplicando mis conocimientos en desarrollo web y diseño. Cada uno de ellos refleja mi compromiso con la creatividad, la eficiencia y la innovación."</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Proyecto 1 -->
+            <a href="#" target="_blank" class="bg-white text-gray-700 rounded-2xl shadow-2xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col items-center p-4">
+                <div class="w-48 h-48 bg-gray-200 rounded-2xl overflow-hidden flex items-center justify-center">
+                    <img src="imagenes/Online resume-amico.png" class="w-full h-full object-cover">
+                </div>
+                <p class="text-lg font-semibold pt-3">Portafolio</p>
+            </a>
+
+            <!-- Proyecto 2 -->
+            <a href="https://proyecto2-generador.netlify.app/" target="_blank" class="bg-white text-gray-700 rounded-2xl shadow-2xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col items-center p-4">
+                <div class="w-48 h-48 bg-gray-200 rounded-2xl overflow-hidden flex items-center justify-center">
+                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.46.32 AM.jpeg" class="w-full h-full object-cover">
+                </div>
+                <p class="text-lg font-semibold pt-3">Generador de memes</p>
+            </a>
+
+            <!-- Proyecto 3 -->
+            <a href="https://proyecto-3-ahorrada.netlify.app/" target="_blank" class="bg-white text-gray-700 rounded-2xl shadow-2xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col items-center p-4">
+                <div class="w-48 h-48 bg-gray-200 rounded-2xl overflow-hidden flex items-center justify-center">
+                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.46.27 AM.jpeg" class="w-full h-full object-cover">
+                </div>
+                <p class="text-lg font-semibold pt-3">Controlador de gastos</p>
+            </a>
+
+            <!-- Proyecto 4 -->
+            <a href="https://proyecto-4-comics.netlify.app/" target="_blank" class="bg-white text-gray-700 rounded-2xl shadow-2xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col items-center p-4">
+                <div class="w-48 h-48 bg-gray-200 rounded-2xl overflow-hidden flex items-center justify-center">
+                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.37.43 AM.jpeg" class="w-full h-full object-cover">
+                </div>
+                <p class="text-lg font-semibold pt-3">Comics y Personajes</p>
+            </a>
+
+            <!-- Proyecto 5 -->
+            <a href="https://proyecto-todo-list-andrea.netlify.app/" target="_blank" class="block">
+                <div class="bg-white text-gray-700 rounded-2xl shadow-2xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col items-center p-4">
+                    <div class="w-48 h-48 bg-gray-200 rounded-2xl overflow-hidden flex items-center justify-center">
+                        <img src="imagenes/WhatsApp Image 2024-05-17 at 10.46.37 AM.jpeg" class="w-full h-full object-cover">
+                    </div>
+                    <p class="text-lg font-semibold pt-3">Administrador de reuniones</p>
+                </div>
+            </a>
+
+            <!-- Proyecto 6 -->
+            <a href="https://proyecto-final-react-e-commerce.netlify.app/" target="_blank" class="bg-white text-gray-700 rounded-2xl shadow-2xl overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-xl flex flex-col items-center p-4">
+                <div class="w-48 h-48 bg-gray-200 rounded-2xl overflow-hidden flex items-center justify-center">
+                    <img src="imagenes/WhatsApp Image 2024-05-17 at 10.54.37 AM.jpeg" class="w-full h-full object-cover">
+                </div>
+                <p class="text-lg font-semibold pt-3">E-commerce</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section id="contacto" class="bg-gradient-to-b from-purple-200 via-pink-100 to-white py-16 text-gray-600">
+    <div class="max-w-6xl mx-auto px-8 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        
+        <!-- Columna Contacto -->
+        <div>
+            <h2 class="text-5xl font-extrabold mb-6">Contáctame</h2>
+            <p class="text-lg mb-8 leading-relaxed">
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit temporibus quos alias sint dolorum minima beatae perferendis cupiditate nesciunt? Quis possimus voluptatum et ullam eius aperiam harum"
+            </p>
+        
+            <!-- Redes Sociales y Contacto -->
+            <ul class="space-y-6">
+                <li class="flex items-center space-x-4">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/" target="_blank" class="flex items-center space-x-4 hover:text-blue-600">
+                        <span class="bg-white w-12 h-12 rounded-full text-blue-600 hover:bg-blue-600 hover:text-white border-2 border-blue-600 text-2xl flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-facebook"></i>
+                        </span>
+                        <span class="text-lg font-medium">Andrea Diaz</span>
+                    </a>
+                </li>
+                <li class="flex items-center space-x-4">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/" target="_blank" class="flex items-center space-x-4 hover:text-pink-500">
+                        <span class="bg-white w-12 h-12 rounded-full text-pink-500 hover:bg-pink-500 hover:text-white border-2 border-pink-500 text-2xl flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                        <span class="text-lg font-medium">@andreadiaz2308</span>
+                    </a>
+                </li>
+                <li class="flex items-center space-x-4">
+                    <!-- Correo -->
+                    <a href="mailto:andreadiaz_2308@hotmail.com" class="flex items-center space-x-4 hover:text-red-500">
+                        <span class="bg-white w-12 h-12 rounded-full text-red-500 hover:bg-red-500 hover:text-white border-2 border-red-500 text-2xl flex items-center justify-center transition-colors">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <span class="text-lg font-medium">andreadiaz_2308@hotmail.com</span>
+                    </a>
+                </li>
+                <li class="flex items-center space-x-4">
+                    <!-- GitHub -->
+                    <a href="https://github.com/andreadiaz519" target="_blank" class="flex items-center space-x-4 hover:text-gray-900">
+                        <span class="bg-white w-12 h-12 rounded-full text-gray-800 hover:bg-gray-800 hover:text-white border-2 border-gray-800 text-2xl flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-github"></i>
+                        </span>
+                        <span class="text-lg font-medium">andreadiaz519</span>
+                    </a>
+                </li>
+                <li class="flex items-center space-x-4">
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/573216278163" target="_blank" class="flex items-center space-x-4 hover:text-green-500">
+                        <span class="bg-white w-12 h-12 rounded-full text-green-500 hover:bg-green-500 hover:text-white border-2 border-green-500 text-2xl flex items-center justify-center transition-colors">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </span>
+                        <span class="text-lg font-medium">+57 3216278163</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+        
+        
+        
+        
+
+        <!-- Columna Formulario -->
+        <form class="bg-white text-gray-600 p-8 rounded-3xl shadow-2xl w-full max-w-lg mx-auto">
+            <legend class="text-3xl font-bold mb-6 text-center text-purple-700">Escríbeme</legend>
+            
+            <div class="grid grid-cols-2 gap-6 mb-4">
+                <div>
+                    <label for="name" class="block text-lg font-semibold mb-2">Nombres*</label>
+                    <input type="text" name="nombre" id="name" class="w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Escribe tus nombres" required>
+                </div>
+                <div>
+                    <label for="Last-name" class="block text-lg font-semibold mb-2">Apellidos*</label>
+                    <input type="text" name="apellido" id="Last-name" class="w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Escribe tus apellidos" required>
+                </div>
+            </div>
+
+            <div class="mb-4">
+                <label for="email" class="block text-lg font-semibold mb-2">Email*</label>
+                <input type="email" name="email" id="email" class="w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Escribe tu email" required>
+            </div>
+
+            <div class="mb-6">
+                <label for="message" class="block text-lg font-semibold mb-2">Mensaje</label>
+                <textarea name="message" id="message" class="w-full p-3 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500" placeholder="Escribe un mensaje aquí" maxlength="150" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="w-full bg-purple-600 text-white text-lg font-semibold py-3 rounded-xl hover:bg-purple-800 transition-all duration-300">Enviar</button>
+        </form>
+
+    </div>
+</section>
+
+
+
+
+
+<footer class="bg-gradient-to-r from-pink-300 to-purple-400
+
+
+text-white py-8 px-4 text-center">
+    <nav class="mb-4">
+        <ul class="flex justify-center space-x-6 text-lg font-semibold">
+            <li><a href="#" class="hover:text-gray-200">INICIO</a></li>
+            <li><a href="#MisConocimientos" class="hover:text-gray-200">CONOCIMIENTOS</a></li>
+            <li><a href="#proyectos" class="hover:text-gray-200">PROYECTOS</a></li>
+            <li><a href="#contacto" class="hover:text-gray-200">CONTACTO</a></li>
+        </ul>
+    </nav>
+    
+    <div class="mb-4">
+        <h3 class="text-xl font-bold">"Hecho con 💖 por Andrea"</h3>
+    </div>
+    
+    <div class="flex justify-center space-x-6">
+        <a href="https://www.facebook.com/" target="_blank" class="bg-white w-12 h-12 rounded-full text-blue-600 hover:bg-blue-600 hover:text-white border-2 border-blue-600 text-2xl flex items-center justify-center transition-colors">
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/" target="_blank" class="bg-white w-12 h-12 rounded-full text-pink-500 hover:bg-pink-500 hover:text-white border-2 border-pink-500 text-2xl flex items-center justify-center transition-colors">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:andreadiaz_2308@hotmail.com" class="bg-white w-12 h-12 rounded-full text-red-500 hover:bg-red-500 hover:text-white border-2 border-red-500 text-2xl flex items-center justify-center transition-colors">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        <a href="https://github.com/andreadiaz519" target="_blank" class="bg-white w-12 h-12 rounded-full text-gray-800 hover:bg-gray-800 hover:text-white border-2 border-gray-800 text-2xl flex items-center justify-center transition-colors">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://wa.me/1234567890" target="_blank" class="bg-white w-12 h-12 rounded-full text-green-500 hover:bg-green-500 hover:text-white border-2 border-green-500 text-2xl flex items-center justify-center transition-colors">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+</footer>
+
+
+
+
+
+
 </body>
 </html>
